@@ -10,7 +10,7 @@ cd ~/.local/scripts
 make
 ```
 ### symbolic links
-This will also create all symbolic links into the default `BIN_DIR` path, i.e. `~/.local/bin`. 
+The aforementioned procidure will also create all symbolic links into the default `BIN_DIR` path, i.e. `~/.local/bin`. 
 If the directory does not exists it will be created, but be sure that it is included in the `PATH`
 environmental variable, otherwise it will not be possible to run scripts from terminal. To change
 the default location simply run `make` with `BIN_DIR` set at will
