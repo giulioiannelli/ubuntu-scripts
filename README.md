@@ -17,3 +17,8 @@ the default location simply run `make` with `BIN_DIR` set at will
 ```
 make BIN_DIR=/my/fancy/path
 ```
+## scripts
+
+### stopwatch
+This script measures the rime elapsed from the beginning of the execution. To stop and print the elapsed time write `stop`
+and press `Enter`.
